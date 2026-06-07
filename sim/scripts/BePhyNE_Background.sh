@@ -21,4 +21,4 @@ echo "Running job with RUN = $RUNNUM and FLAG = $BOOL_FLAG"
 PATH=$PATH:/opt/R/4.2.3/lib/R
 
 # Run the R script with extracted arguments
-Rscript Background_BePhyNE_sim_new.R "$BOOL_FLAG"
+Rscript Background_BePhyNE_sim.R "$BOOL_FLAG"
